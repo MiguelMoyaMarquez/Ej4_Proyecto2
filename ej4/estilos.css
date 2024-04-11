@@ -1,0 +1,116 @@
+    div.pantalla {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    div.cuerpo {
+        padding-left: 15%;
+
+        width: 75%;
+        height: 100%;
+        display: flex;
+    }
+
+    div.video {
+        margin-left: 0%;
+        padding-top: 5%;
+
+        width: 50%;
+        height: 50%;
+
+    }
+
+
+
+    iframe {
+        width: 100%;
+    }
+
+
+
+
+
+    div.imagenes {
+
+        width: fit-content;
+        padding-top: 10%;
+    }
+
+    .imagenes img {
+        padding-left: 25%;
+        padding-top: 10%;
+        width: 50%;
+        display: table-column-group;
+    }
+
+
+    .comentarios{
+        height: 50%;
+        overflow-y: scroll;
+    }
+
+    .comentario,
+    .canal {
+        display: flex;
+        transform: translate(0%, 0%);
+        background-color: white;
+        transition: 1s;
+        border: 2px solid green;
+    }
+
+    .comentario:hover {
+        transition: 1s;
+        background-color: lightblue;
+        transform: translate(20%, 0%);
+    }
+
+    .descripcion {
+        background-color: lightgray;
+        border: 2px solid black;
+        transition: 1s
+    }
+
+    .descripcion:hover {
+        transition: 1s;
+        background-color: gray;
+    }
+
+    .comentario img,
+    .canal img {
+        border-radius: 50%;
+        width: 10%;
+    }
+
+    .comentario a {
+        text-decoration: none;
+    }
+
+    .imagenes h3,
+    .imagenes sub {
+        padding-left: 25%;
+        padding-top: 5%;
+        position: absolute;
+    }
+
+    .imagenes sub {
+        padding-top: 7.5%;
+    }
+
+    @media only screen and (max-width: 1024px) {
+       
+            
+
+            div.imagenes, div.comentarios,  img, h3{
+           display: none;
+            }
+      
+                }
+
+
+                /*Creado por Miguel Moya Márquez*/
